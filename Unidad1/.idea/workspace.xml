@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f2010bc-c907-4cbf-a29d-92dc163309f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sesion1_File/Ejercicio6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datos1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicio3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesion1_File/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion1_File/Ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesion1_File/Ejercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion1_File/Ejercicio6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesion1_File/Ejercicio7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion1_File/Ejercicio7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,35 @@
       <recent name="Sesion1_File" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Ejercicio7" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-26" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Sesion1_File.Ejercicio7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sesion1_File.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Unidad1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Unidad1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,6 +94,9 @@
       <updated>1789466029172</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
