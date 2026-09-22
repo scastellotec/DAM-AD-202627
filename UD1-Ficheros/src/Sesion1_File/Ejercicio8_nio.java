@@ -12,15 +12,19 @@ public class Ejercicio8_nio {
         // Instancio la ruta de la carpeta con Path
         Path ruta = Path.of("datos2");
 
-        try {
+        //try-cath con recursos -> se libera al finalizar
+        try (Stream<Path> contenido = Files.walk(ruta);){
             // Recupero el contenido de la carpeta con Files.walk
-            Stream<Path> contenido = Files.walk(ruta);
+
             // Recorro el contenido y lo muestro
             contenido.forEach(System.out::println);
 
+            contenido.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+
 
     }
 }
