@@ -1,4 +1,4 @@
-package src.Sesion1_File;
+package Sesion1_File;
 
 import java.io.File;
 
@@ -41,11 +41,13 @@ public class Ejercicio7 {
         File[] contenido2 = directorio.listFiles();
 
         for (File f: contenido2) {
+            // forma 1: mas clasica
             /*if(f.isDirectory())
                 System.out.println("[Carpeta] "+f.getName());
             else
                 System.out.println("- "+f.getName());*/
 
+            // Forma 2: con if ternario
             System.out.println(f.isDirectory() ? "[Carpeta] "+f.getName(): "- "+f.getName());
         }
 

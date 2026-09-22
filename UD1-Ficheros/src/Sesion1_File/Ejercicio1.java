@@ -1,4 +1,4 @@
-package src.Sesion1_File;
+package Sesion1_File;
 
 
 import java.io.File;
