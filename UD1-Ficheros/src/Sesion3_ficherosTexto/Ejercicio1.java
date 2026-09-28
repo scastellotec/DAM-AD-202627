@@ -1,7 +1,7 @@
 package Sesion3_ficherosTexto;
 
+import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 
 public class Ejercicio1 {
@@ -26,6 +26,8 @@ public class Ejercicio1 {
             // 3. Libero recursos
             fichero.close();
 
+        } catch (FileNotFoundException e) {
+            System.out.println("Error en el nombre del fichero");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
