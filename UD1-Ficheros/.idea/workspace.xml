@@ -5,13 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ade239a9-4080-4e0d-860f-f547fff54e56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/libro.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion3_ficherosTexto/Ejercicio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion3_ficherosTexto/Ejercicio3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion3_ficherosTexto/Ejercicio4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/UD1-Ficheros2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion1_File/Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion1_File/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion1_File/Ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion1_File/Ejercicio3_param.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion1_File/Ejercicio4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion1_File/Ejercicio5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion1_File/Ejercicio6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion1_File/Ejercicio7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion1_File/Ejercicio8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion1_File/Ejercicio8_nio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion2_Excepciones/Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion2_Excepciones/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion3_ficherosTexto/Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion3_ficherosTexto/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion3_ficherosTexto/Ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion3_ficherosTexto/Ejercicio4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD1-Ficheros2/src/Sesion3_ficherosTexto/Ejercicio5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ud1-Ficheros2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ud1-Ficheros2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ud1-Ficheros2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ud1-Ficheros2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ud1-Ficheros2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ud1-Ficheros2/Ud1-Ficheros2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ud1-Ficheros2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejerccio5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercio5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion3_ficherosTexto/Ejercicio5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion3_ficherosTexto/Ejercicio6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion3_ficherosTexto/Ejercicio6Bis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion3_ficherosTexto/Ejercicio7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesion3_ficherosTexto/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion3_ficherosTexto/Ejercicio1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +74,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/jefaturafp@iespabloserrano.com/AccesoDatos/UD1-Ficheros/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/jefaturafp@iespabloserrano.com/AccesoDatos/UD1-Ficheros",
+    "onboarding.tips.debug.path": "/home/jefaturafp@iespabloserrano.com/AccesoDatos/UD1-Ficheros/src/Main.java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Ejercicio7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sesion3_ficherosTexto.Ejercicio7" />
+      <module name="UD1-Ficheros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sesion3_ficherosTexto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Ejercicio7" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,5 +118,12 @@
       <updated>1790069536576</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
