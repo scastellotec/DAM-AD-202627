@@ -1,17 +1,17 @@
-package Sesion4_PrintWriterScanner_CSV;
+package Sesion5_CapasArquitectura.Model;
 
-public class Alumno {
+public class Equipo {
 
     private int id;
     private String nombre;
-    private String email;
+    private int puntos;
 
-    public Alumno() {
-    }
-    public Alumno(int id, String nombre, String email) {
+    public Equipo() {}
+
+    public Equipo(int id, String nombre, int puntos) {
         this.id = id;
         this.nombre = nombre;
-        this.email = email;
+        this.puntos = puntos;
     }
 
     public int getId() {
@@ -30,16 +30,16 @@ public class Alumno {
         this.nombre = nombre;
     }
 
-    public String getEmail() {
-        return email;
+    public int getPuntos() {
+        return puntos;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setPuntos(int puntos) {
+        this.puntos = puntos;
     }
 
     @Override
     public String toString() {
-        return id + "," + nombre + "," + email;
+        return id + "," + nombre + "," + puntos;
     }
 }
