@@ -16,10 +16,16 @@ public class MainSesion5 {
         eService.creaEquipo(new Equipo(3,"Los malos",10));
 
         // Busco un equipo
-        System.out.println(eService.encuentraEquipo(3));
+        System.out.println(eSer vice.encuentraEquipo(3));
 
         // Borro un equipo
         eService.borraEquipo(2);
+
+        // Listo los equipos
+        System.out.println("### Listo todos los equipos ###");
+        for (Equipo e: eService.listarEquipos()) {
+            System.out.println(e);
+        };
 
     }
 }

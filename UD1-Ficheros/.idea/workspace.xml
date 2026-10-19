@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ade239a9-4080-4e0d-860f-f547fff54e56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/alumnos2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/MainSesion5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Model/Equipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/EquipoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/EquipoRepositoryJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/EquipoRespositoryBin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Service/EquipoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datos2/hola.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jugadores.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datos2/sergio.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesion4_PrintWriterScanner_CSV/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion4_PrintWriterScanner_CSV/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesion4_PrintWriterScanner_CSV/Ejercicio62_CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion4_PrintWriterScanner_CSV/Ejercicio62_CSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jugadores.csv" beforeDir="false" afterPath="$PROJECT_DIR$/jugadores.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/MainSesion5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/MainSesion5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/EquipoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/EquipoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Service/EquipoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Service/EquipoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

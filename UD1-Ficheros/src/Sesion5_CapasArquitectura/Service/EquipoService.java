@@ -15,11 +15,11 @@ public class EquipoService {
         equipoRepository.save(e);
     }
 
-    public ArrayList<Equipo> listarEquipos() throws FileNotFoundException {
+    public ArrayList<Equipo> listarEquipos() throws IOException {
         return equipoRepository.findAll();
     }
 
-    public Equipo encuentraEquipo(int id) throws FileNotFoundException {
+    public Equipo encuentraEquipo(int id) throws IOException {
         return equipoRepository.findById(id);
     }
 

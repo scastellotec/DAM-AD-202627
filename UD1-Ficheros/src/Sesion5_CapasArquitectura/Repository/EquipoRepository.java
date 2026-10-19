@@ -18,7 +18,7 @@ public class EquipoRepository {
             // Guardamos en CSV
             guardarCSV(equipos);
     }
-    public Equipo findById(int id) throws FileNotFoundException {
+    public Equipo findById(int id) throws IOException {
         Equipo equipoEncontrado = new Equipo();
             // Cargo el CSV
             ArrayList<Equipo> equipos = cargarCSV();
@@ -31,7 +31,7 @@ public class EquipoRepository {
         return equipoEncontrado;
     }
 
-    public ArrayList<Equipo> findAll() throws FileNotFoundException {
+    public ArrayList<Equipo> findAll() throws IOException {
         // Cargar el CSV
         ArrayList<Equipo> equipos = cargarCSV();
         // Devolver todo el contenido
@@ -43,7 +43,6 @@ public class EquipoRepository {
         ArrayList<Equipo> equipos = cargarCSV();
         // Borro el equipo que no quiero
         for (Equipo equipo : equipos) {
-            System.out.println("algo: "+equipo);
             if(equipo.getId() == id)
                 equipos.remove(equipo);
         }
@@ -51,9 +50,18 @@ public class EquipoRepository {
         guardarCSV(equipos);
     }
 
-    private ArrayList<Equipo> cargarCSV() throws FileNotFoundException {
+    private ArrayList<Equipo> cargarCSV() throws IOException {
         // Abro el fichero
-        Scanner sc = new Scanner(new File(nombreFichero));
+        Scanner sc = null;
+        try {
+            // Si ya existe el fichero lo cargo
+            sc = new Scanner(new File(nombreFichero));
+        } catch (FileNotFoundException e) {
+            // Si no existe el fichero lo creo
+            File f = new File(nombreFichero);
+            f.createNewFile();
+            sc = new Scanner(new File(nombreFichero));
+        }
         // Cargo todo en el arrayList y lo devuelvo
         ArrayList<Equipo> equiposCargados = new ArrayList<>();
         while(sc.hasNextLine()){
