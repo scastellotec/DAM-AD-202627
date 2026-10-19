@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ade239a9-4080-4e0d-860f-f547fff54e56" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Model/Jugador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/JugadorRepositoryCSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jugadores.csv" beforeDir="false" afterPath="$PROJECT_DIR$/jugadores.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/MainSesion5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/MainSesion5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/EquipoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/EquipoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Model/Equipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Model/Equipo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/EquipoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/EquipoRepositoryCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/EquipoRepositoryJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/EquipoRespositoryBin.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Service/EquipoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Service/EquipoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,20 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/jefaturafp@iespabloserrano.com/AccesoDatos/UD1-Ficheros&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/jefaturafp@iespabloserrano.com/AccesoDatos/UD1-Ficheros/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/jefaturafp@iespabloserrano.com/AccesoDatos/UD1-Ficheros",
+    "onboarding.tips.debug.path": "/home/jefaturafp@iespabloserrano.com/AccesoDatos/UD1-Ficheros/src/Main.java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.MainSesion5">
     <configuration name="Ejercicio7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sesion3_ficherosTexto.Ejercicio7" />

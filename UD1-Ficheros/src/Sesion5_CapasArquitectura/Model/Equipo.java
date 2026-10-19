@@ -1,5 +1,7 @@
 package Sesion5_CapasArquitectura.Model;
 
+import java.util.ArrayList;
+
 public class Equipo {
 
     private int id;

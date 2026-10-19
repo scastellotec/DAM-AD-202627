@@ -6,9 +6,9 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class EquipoRepository {
+public class EquipoRepositoryCSV {
 
-    private final String nombreFichero = "jugadores.csv";
+    private final String nombreFichero = "equipo.csv";
 
     public void save(Equipo e) throws IOException {
             // Cargamos todo el csv
