@@ -8,6 +8,9 @@ import java.io.IOException;
 
 public class MainSesion5 {
     public static void main(String[] args) throws IOException {
+
+        // IDEA: Borrar los archivos CSV y crearlos nuevos
+
         EquipoService eService = new EquipoService();
 
         // Creo los equipos
