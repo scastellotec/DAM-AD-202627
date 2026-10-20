@@ -4,10 +4,10 @@ public class Jugador {
      private int dorsal;
      private String nombre;
 
-     private Equipo equipo;
+     private int equipo;
 
     public Jugador() {}
-    public Jugador(int dorsal, String nombre, Equipo equipo) {
+    public Jugador(int dorsal, String nombre, int equipo) {
         this.dorsal = dorsal;
         this.nombre = nombre;
         this.equipo = equipo;
@@ -29,16 +29,16 @@ public class Jugador {
         this.nombre = nombre;
     }
 
-    public Equipo getEquipo() {
+    public int getEquipo() {
         return equipo;
     }
 
-    public void setEquipo(Equipo equipo) {
+    public void setEquipo(int equipo) {
         this.equipo = equipo;
     }
 
     @Override
     public String toString() {
-        return dorsal + "," + nombre + "," + equipo.getId();
+        return dorsal + "," + nombre + "," + equipo;
     }
 }

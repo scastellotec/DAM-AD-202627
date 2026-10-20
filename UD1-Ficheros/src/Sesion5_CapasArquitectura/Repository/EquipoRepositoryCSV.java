@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class EquipoRepositoryCSV {
 
-    private final String nombreFichero = "equipo.csv";
+    private final String nombreFichero = "equipos.csv";
 
     public void save(Equipo e) throws IOException {
             // Cargamos todo el csv
@@ -43,8 +43,10 @@ public class EquipoRepositoryCSV {
         ArrayList<Equipo> equipos = cargarCSV();
         // Borro el equipo que no quiero
         for (Equipo equipo : equipos) {
-            if(equipo.getId() == id)
+            if(equipo.getId() == id){
                 equipos.remove(equipo);
+                break;
+            }
         }
         // Guardo el CSV
         guardarCSV(equipos);
@@ -52,16 +54,8 @@ public class EquipoRepositoryCSV {
 
     private ArrayList<Equipo> cargarCSV() throws IOException {
         // Abro el fichero
-        Scanner sc = null;
-        try {
-            // Si ya existe el fichero lo cargo
-            sc = new Scanner(new File(nombreFichero));
-        } catch (FileNotFoundException e) {
-            // Si no existe el fichero lo creo
-            File f = new File(nombreFichero);
-            f.createNewFile();
-            sc = new Scanner(new File(nombreFichero));
-        }
+        Scanner sc = new Scanner(new File(nombreFichero));
+
         // Cargo todo en el arrayList y lo devuelvo
         ArrayList<Equipo> equiposCargados = new ArrayList<>();
         while(sc.hasNextLine()){

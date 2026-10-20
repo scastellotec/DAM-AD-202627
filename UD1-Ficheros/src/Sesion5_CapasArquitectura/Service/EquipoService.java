@@ -29,17 +29,21 @@ public class EquipoService {
         equipoRepository.deleteById(id);
     }
 
-    public void creaJugador(Jugador j){
+    public void creaJugador(Jugador j) throws IOException {
         jugadorRepository.save(j);
     }
 
-    public ArrayList<Jugador> listajugadoresEquipo(int idEquipo){
-        //jugadorRepository.findAll()
-        // filtro y devuelvo solo los del equipo que corersponda
+    public ArrayList<Jugador> listajugadoresEquipo(int idEquipo) throws IOException {
+        return jugadorRepository.findAll();
     }
 
-    //cambiaDeEquipo();
-    //borraJugador();
+    public void cambiaDeEquipo(int dorsal, int idEquipoNuevo) throws IOException {
+        jugadorRepository.cambiarEquipo(dorsal, idEquipoNuevo);
+    }
+
+    public void borraJugador(int dorsal) throws IOException {
+        jugadorRepository.deleteById(dorsal);
+    }
 
 
 }
