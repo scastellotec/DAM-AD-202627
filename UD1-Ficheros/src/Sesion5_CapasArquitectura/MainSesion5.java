@@ -2,7 +2,7 @@ package Sesion5_CapasArquitectura;
 
 import Sesion5_CapasArquitectura.Model.Equipo;
 import Sesion5_CapasArquitectura.Model.Jugador;
-import Sesion5_CapasArquitectura.Service.EquipoService;
+//import Sesion5_CapasArquitectura.Service.EquipoService;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class MainSesion5 {
     public static void main(String[] args) throws IOException {
-
+/*
         // IDEA: Borrar los archivos CSV y crearlos nuevos
         File fJugadores = new File("jugadores.csv");
         fJugadores.delete();
@@ -67,6 +67,6 @@ public class MainSesion5 {
         System.out.println("### Todos los jugadores despues de borrado ###");
         for (Jugador j : eService.listajugadoresEquipo(1)) {
             System.out.println(j);
-        }
+        }*/
     }
 }

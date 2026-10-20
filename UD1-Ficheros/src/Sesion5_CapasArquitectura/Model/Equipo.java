@@ -7,6 +7,7 @@ public class Equipo {
     private int id;
     private String nombre;
     private int puntos;
+    private ArrayList<Jugador> jugadores = new ArrayList<>();
 
     public Equipo() {}
 
@@ -38,6 +39,18 @@ public class Equipo {
 
     public void setPuntos(int puntos) {
         this.puntos = puntos;
+    }
+
+    public ArrayList<Jugador> getJugadores() {
+        return jugadores;
+    }
+
+    public void setJugadores(ArrayList<Jugador> jugadores) {
+        this.jugadores = jugadores;
+    }
+
+    public void addJugador(Jugador jugador) {
+        jugadores.add(jugador);
     }
 
     @Override

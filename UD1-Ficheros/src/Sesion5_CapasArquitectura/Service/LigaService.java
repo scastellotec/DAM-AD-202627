@@ -8,7 +8,7 @@ import Sesion5_CapasArquitectura.Repository.JugadorRepositoryCSV;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class EquipoService {
+public class LigaService {
 
     private EquipoRepositoryCSV equipoRepository = new EquipoRepositoryCSV();
     private JugadorRepositoryCSV jugadorRepository = new JugadorRepositoryCSV();
@@ -22,7 +22,10 @@ public class EquipoService {
     }
 
     public Equipo encuentraEquipo(int id) throws IOException {
-        return equipoRepository.findById(id);
+        Equipo eEncontrado = equipoRepository.findById(id);
+        eEncontrado.setJugadores(jugadorRepository.jugadoresDelEquipo(id));
+
+        return eEncontrado;
     }
 
     public void borraEquipo(int id) throws IOException {

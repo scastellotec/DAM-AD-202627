@@ -37,6 +37,20 @@ public class JugadorRepositoryCSV {
         return jugadoresCargados;
     }
 
+    public ArrayList<Jugador> jugadoresDelEquipo(int idEquipo) throws IOException {
+        // Array que vais  devolver
+        ArrayList<Jugador> jugadoresEquipo = new ArrayList<>();
+        // Cargo el CSV
+        ArrayList<Jugador> jugadoresCargados = cargarCSV();
+
+        for (Jugador j: jugadoresCargados) {
+            if(j.getEquipo() == idEquipo)
+                jugadoresEquipo.add(j);
+        }
+
+        return jugadoresEquipo;
+    }
+
     public void deleteById(int dorsal) throws IOException {
         // Cargo el CSV
         ArrayList<Jugador> jugadoresCargados = cargarCSV();

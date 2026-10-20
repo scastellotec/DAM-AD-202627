@@ -24,18 +24,18 @@ public class EquipoRepositoryCSV {
             ArrayList<Equipo> equipos = cargarCSV();
             // Busco el equipo en concreto
             for (Equipo equipo : equipos) {
-                if(equipo.getId() == id)
+                if(equipo.getId() == id) {
                     equipoEncontrado = equipo;
+                    // Devuelvo el equipo encontrado
+                    return equipoEncontrado;
+                }
             }
-        // Devuelvo el equipo encontrado
-        return equipoEncontrado;
+        // No hemos encontrado equipo
+        return null;
     }
 
     public ArrayList<Equipo> findAll() throws IOException {
-        // Cargar el CSV
-        ArrayList<Equipo> equipos = cargarCSV();
-        // Devolver todo el contenido
-        return equipos;
+        return cargarCSV();
     }
 
     public void deleteById(int id) throws IOException {

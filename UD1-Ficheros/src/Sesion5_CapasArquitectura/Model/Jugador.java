@@ -3,11 +3,15 @@ package Sesion5_CapasArquitectura.Model;
 public class Jugador {
      private int dorsal;
      private String nombre;
-
      private int equipo;
 
     public Jugador() {}
-    public Jugador(int dorsal, String nombre, int equipo) {
+    public Jugador(int dorsal, String nombre) {
+        this.dorsal = dorsal;
+        this.nombre = nombre;
+    }
+
+    public Jugador(int dorsal, String nombre, int idEquipo) {
         this.dorsal = dorsal;
         this.nombre = nombre;
         this.equipo = equipo;
@@ -36,6 +40,7 @@ public class Jugador {
     public void setEquipo(int equipo) {
         this.equipo = equipo;
     }
+
 
     @Override
     public String toString() {
