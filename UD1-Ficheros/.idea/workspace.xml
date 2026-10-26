@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ade239a9-4080-4e0d-860f-f547fff54e56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/liga/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/liga/modelo/Equipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/liga/modelo/Jugador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/liga/repositorio/RepositorioEquipoCsv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/liga/repositorio/RepositorioJugadorCsv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/liga/servicio/LigaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fotogrande.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pequena-estrella.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion6_Binarios/Ejercicio42_binario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion6_Binarios/Ejercicio43_copiarIMG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion6_Binarios/Ejercicio44_copiarconbuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion8_randomaccessfile/Ejercicio1_demostracion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datos.dat" beforeDir="false" afterPath="$PROJECT_DIR$/datos.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesion6_Binarios/Ejercicio41_binaroi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion6_Binarios/Ejercicio41_binaroi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,46 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Ejercicio1_demostracion">
+    <configuration name="Ejercicio1_demostracion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sesion8_randomaccessfile.Ejercicio1_demostracion" />
+      <module name="UD1-Ficheros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sesion8_randomaccessfile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio42_binario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sesion6_Binarios.Ejercicio42_binario" />
+      <module name="UD1-Ficheros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sesion6_Binarios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio43_copiarIMG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sesion6_Binarios.Ejercicio43_copiarIMG" />
+      <module name="UD1-Ficheros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sesion6_Binarios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ejercicio7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sesion3_ficherosTexto.Ejercicio7" />
       <module name="UD1-Ficheros" />
@@ -83,6 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejercicio1_demostracion" />
+        <item itemvalue="Application.Ejercicio43_copiarIMG" />
+        <item itemvalue="Application.Ejercicio42_binario" />
         <item itemvalue="Application.Ejercicio7" />
         <item itemvalue="Application.MainSesion5" />
       </list>
