@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ade239a9-4080-4e0d-860f-f547fff54e56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/datos.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion6_Binarios/Ejercicio41_binaroi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/liga/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/liga/modelo/Equipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/liga/modelo/Jugador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/liga/repositorio/RepositorioEquipoCsv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/liga/repositorio/RepositorioJugadorCsv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/liga/servicio/LigaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/MainSesion5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/MainSesion5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Model/Equipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Model/Equipo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Model/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Model/Jugador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/EquipoRepositoryCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/EquipoRepositoryCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/JugadorRepositoryCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Repository/JugadorRepositoryCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Service/EquipoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion5_CapasArquitectura/Service/LigaService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainSesion5" />
         <item itemvalue="Application.Ejercicio7" />
+        <item itemvalue="Application.MainSesion5" />
       </list>
     </recent_temporary>
   </component>
