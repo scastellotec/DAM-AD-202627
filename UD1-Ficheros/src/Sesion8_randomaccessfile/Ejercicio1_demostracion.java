@@ -32,6 +32,16 @@ public class Ejercicio1_demostracion {
         int sexto = raf.readInt(); //19: 00000100 00000000 00000000 00000000
         System.out.println("El entero es: " + sexto);
 
+        // Sobreescribir el numero 5
+        raf.seek(20);
+        raf.writeInt(255);
+
+        // Me posiciono en el byte 20
+        raf.seek(20);
+
+        sexto = raf.readInt(); //19: 00000100 00000000 00000000 00000000
+        System.out.println("El entero es: " + sexto);
+
         raf.close();
 
     }

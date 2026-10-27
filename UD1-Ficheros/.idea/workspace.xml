@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ade239a9-4080-4e0d-860f-f547fff54e56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/copia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fotogrande.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pequena-estrella.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion6_Binarios/Ejercicio42_binario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion6_Binarios/Ejercicio43_copiarIMG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion6_Binarios/Ejercicio44_copiarconbuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion8_randomaccessfile/Ejercicio1_demostracion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion8_randomaccessfile/Ejercicio42_Agenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datos.dat" beforeDir="false" afterPath="$PROJECT_DIR$/datos.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesion6_Binarios/Ejercicio41_binaroi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion6_Binarios/Ejercicio41_binaroi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random.dat" beforeDir="false" afterPath="$PROJECT_DIR$/random.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesion8_randomaccessfile/Ejercicio1_demostracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion8_randomaccessfile/Ejercicio1_demostracion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ejercicio1_demostracion">
+  <component name="RunManager">
     <configuration name="Ejercicio1_demostracion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sesion8_randomaccessfile.Ejercicio1_demostracion" />
       <module name="UD1-Ficheros" />
