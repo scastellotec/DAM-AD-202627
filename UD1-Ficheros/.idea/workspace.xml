@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ade239a9-4080-4e0d-860f-f547fff54e56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/agenda.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesion8_randomaccessfile/Ejercicio42_Agenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion9_xml/Contacto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion9_xml/Ejercicio41_xmlies_leer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion9_xml/Ejercicio41_xmlinstituto_Escribir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesion9_xml/Ejercicio42_contactos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random.dat" beforeDir="false" afterPath="$PROJECT_DIR$/random.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesion8_randomaccessfile/Ejercicio1_demostracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion8_randomaccessfile/Ejercicio1_demostracion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
