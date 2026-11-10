@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ade239a9-4080-4e0d-860f-f547fff54e56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/.idea/desktop.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/ExamenUD1_ficheros.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/desktop.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/paises.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/paises.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/paises.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/src/GestorPaises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/src/Pais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/src/desktop.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio42.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/paises.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/paises.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/src/GestorPaises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamenUD1_ficheros_enunciado/src/GestorPaises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesion9_xml/Ejercicio42_contactos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesion9_xml/Ejercicio42_contactos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/jefaturafp@iespabloserrano.com/AccesoDatos/ExamenUD1_ficheros_enunciado",
-    "onboarding.tips.debug.path": "/home/jefaturafp@iespabloserrano.com/AccesoDatos/UD1-Ficheros/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jefaturafp@iespabloserrano.com/AccesoDatos/ExamenUD1_ficheros_enunciado&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/jefaturafp@iespabloserrano.com/AccesoDatos/UD1-Ficheros/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Ejercicio1_demostracion">
     <configuration name="Ejercicio1_demostracion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sesion8_randomaccessfile.Ejercicio1_demostracion" />

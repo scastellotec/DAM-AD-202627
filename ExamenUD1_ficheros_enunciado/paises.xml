@@ -3,7 +3,51 @@
     <pais>
         <id>1</id>
         <nombre>Chile</nombre>
-        <indiceDesarrollo>0.855</indiceDesarrollo>
+        <indicedesarrollo>0.855</indicedesarrollo>
     </pais>
-
+    <pais>
+        <id>2</id>
+        <nombre>Qatar</nombre>
+        <indicedesarrollo>0.875</indicedesarrollo>
+    </pais>
+    <pais>
+        <id>3</id>
+        <nombre>Japan</nombre>
+        <indicedesarrollo>0.925</indicedesarrollo>
+    </pais>
+    <pais>
+        <id>4</id>
+        <nombre>Spain</nombre>
+        <indicedesarrollo>0.905</indicedesarrollo>
+    </pais>
+    <pais>
+        <id>5</id>
+        <nombre>Malta</nombre>
+        <indicedesarrollo>0.895</indicedesarrollo>
+    </pais>
+    <pais>
+        <id>6</id>
+        <nombre>Yemen</nombre>
+        <indicedesarrollo>0.48</indicedesarrollo>
+    </pais>
+    <pais>
+        <id>7</id>
+        <nombre>Ghana</nombre>
+        <indicedesarrollo>0.63</indicedesarrollo>
+    </pais>
+    <pais>
+        <id>8</id>
+        <nombre>Kenya</nombre>
+        <indicedesarrollo>0.59</indicedesarrollo>
+    </pais>
+    <pais>
+        <id>9</id>
+        <nombre>Italy</nombre>
+        <indicedesarrollo>0.91</indicedesarrollo>
+    </pais>
+    <pais>
+        <id>10</id>
+        <nombre>Niger</nombre>
+        <indicedesarrollo>0.45</indicedesarrollo>
+    </pais>
 </paises>

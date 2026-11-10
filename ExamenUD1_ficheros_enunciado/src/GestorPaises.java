@@ -1,5 +1,16 @@
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.*;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class GestorPaises {
 
@@ -14,26 +25,55 @@ public class GestorPaises {
     }
 
     // Ejercicio 1: leer CSV
-    public void leerCSV(String nombreArchivoCSV){
-        /*
-        Lee el contenido del archivo CSV
-        Salta la primera linea que indica la descripción de cada campo
-        Por cada linea crea un pais y añadelo al ArrayList de paises
-        Garantiza el cierre de los recursos
-        Captura y/o propaga la excepcion
-         */
+    public void leerCSV(String nombreArchivoCSV) throws FileNotFoundException {
+
+        //1. Abrir el fichero
+        Scanner sc = new Scanner(new File(nombreArchivoCSV));
+
+        //2. Recorrer con un bucle todas las lineas del fichero
+        sc.nextLine(); // Salto la primera linea
+
+        while(sc.hasNextLine()) {
+            String linea = sc.nextLine();
+            String[] datosLinea = linea.split(";");
+            paises.add(new Pais(Integer.parseInt(datosLinea[0]),
+                                    datosLinea[1],
+                                        Double.parseDouble(datosLinea[2])));
+        }
+
+        //3. Cerrar el fichero
+        sc.close();
     }
 
     // Ejercicio 2: Leer aleatorio
-    public void leerAleatorio(String nombreArchivoCSVAleatorio, int idBuscado){
-        /*
-        Define claramente el tamaño del registro de cada Pais. Ten en cuenta que el nombre del pais siempre será de 5 letras.
-        Lee el registro correspondiente al idbuscado, no es necesario contemplar la posibilidad de que el registro no exista
-        Inserta el pais buscado en el arraylist
-        Garantiza el cierre de los recursos
-        Captura y/o propaga la excepcion
-         */
+    public void leerAleatorio(String nombreArchivoCSVAleatorio, int idBuscado) throws IOException {
 
+        // 1. Defino el tamaño del registro
+        final int ID_SIZE = 4;
+        final int NOMBRE_SIZE = 5;
+        final int INDICEDESARROLLO_SIZE = 8;
+        final int TOTAL_SIZE = ID_SIZE + NOMBRE_SIZE*2 + INDICEDESARROLLO_SIZE;
+
+        //2. Abro el fichero
+        RandomAccessFile ra = new RandomAccessFile(nombreArchivoCSVAleatorio, "r");
+
+        //3. Me posiciono en el registro
+        ra.seek(idBuscado * TOTAL_SIZE);
+
+        //4. Leo el registro y lo añado
+        int id = ra.readInt();
+
+        String nombre = "";
+        for (int i = 0; i < NOMBRE_SIZE; i++) {
+            nombre += ra.readChar();
+        }
+
+        double indiceDesarrollo = ra.readDouble();
+
+        paises.add(new Pais(id, nombre, indiceDesarrollo));
+
+        //5. Libero o cierro recursos
+        ra.close();
     }
 
     // Ejercicio 3: Escribir XML
@@ -53,7 +93,47 @@ public class GestorPaises {
     Garantiza el cierre de los recursos
     Captura y/o propaga la excepcion
      */
-    public void escribeXML(String nombreArchivoXML){
+    public void escribeXML(String nombreArchivoXML) throws ParserConfigurationException, TransformerException {
+
+        //1. Abro el fichero (o la factory para crearlo)
+        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+        DocumentBuilder db = dbf.newDocumentBuilder();
+        Document doc = db.newDocument();
+
+        // 2. Grabo los datos con un bucle (o creo la estructura)
+        // Genero el nodo raiz
+        Element raiz = doc.createElement("paises");
+        // Lo añado al arbol DOM
+        doc.appendChild(raiz);
+
+        // Recorrer con un bucle el ArryList de Paises e ir guardando
+        for (Pais p: paises) {
+            // <pais>
+            Element pais = doc.createElement("pais");
+
+            //<id>
+            Element id = doc.createElement("id");
+            id.setTextContent(String.valueOf(p.getId()));
+
+            //<nombre>
+            Element nombre = doc.createElement("nombre");
+            nombre.setTextContent(p.getNombre());
+
+            //<indicedesarrollo>
+            Element indicedesarrollo = doc.createElement("indicedesarrollo");
+            indicedesarrollo.setTextContent(String.valueOf(p.getIndiceDesarrollo()));
+
+            //Añado al arbol DOM
+            pais.appendChild(id);
+            pais.appendChild(nombre);
+            pais.appendChild(indicedesarrollo);
+            raiz.appendChild(pais);
+        }
+
+        //3. Solo en XML: Genero el fichero
+        Transformer tr = TransformerFactory.newInstance().newTransformer();
+        tr.setOutputProperty(OutputKeys.INDENT, "yes");
+        tr.transform(new DOMSource(doc), new StreamResult(new File(nombreArchivoXML)));
 
     }
 
