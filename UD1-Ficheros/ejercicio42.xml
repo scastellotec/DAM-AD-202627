@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<contactos>
+    <contacto id="1">
+        <nombre>Julian</nombre>
+    </contacto>
+    <contacto id="2">
+        <nombre>Maria</nombre>
+    </contacto>
+    <contacto id="3">
+        <nombre>John</nombre>
+    </contacto>
+    <contacto id="4">
+        <nombre>Amanda</nombre>
+    </contacto>
+    <contacto id="5">
+        <nombre>Jose</nombre>
+    </contacto>
+</contactos>
