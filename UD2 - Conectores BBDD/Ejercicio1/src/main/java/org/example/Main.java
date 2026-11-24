@@ -1,19 +1,32 @@
 package org.example;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import org.example.Model.Producto;
+import org.example.Repository.ProductoRepository;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Mayús+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+            ProductoRepository pRepo = new ProductoRepository();
 
-            // Press Mayús+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+            // Buscar todos
+            List<Producto> productosDevueltos = pRepo.findAll();
+            for (Producto p: productosDevueltos) {
+                System.out.println(p.toString());
+            }
+            //pRepo.findAll().forEach(System.out::println);
+
+            // Buscar uno dado
+            //pRepo.findById(1);
+
+            // Buscar por nombre
+            //pRepo.findByNombre("teclado");
+
+
     }
 }
