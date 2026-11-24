@@ -22,10 +22,12 @@ public class Main {
             //pRepo.findAll().forEach(System.out::println);
 
             // Buscar uno dado
-            //pRepo.findById(1);
+            System.out.println("### Buscando un producto por ID ###");
+            System.out.println(pRepo.findById(1));
 
             // Buscar por nombre
-            //pRepo.findByNombre("teclado");
+             System.out.println("### Buscando un producto por Nombre ###");
+             pRepo.findByNombre("%Camiseta%").forEach(System.out::println);
 
 
     }

@@ -44,11 +44,71 @@ public class ProductoRepository {
         return productosEncontrados;
     }
     public Producto findById(int id){
-        return null;
+        // Lo que devolveré al usuario
+        Producto producto;
+
+        // Consulta que quiero realizar
+        String consulta = "SELECT id, nombre, precio, descripcion FROM producto WHERE id = ?";
+
+        // Me conecto a la BBDD
+        try(Connection con = ConexionBD.getConexionBD()){
+
+            // Preparo la consulta SQL
+            PreparedStatement ps = con.prepareStatement(consulta);
+            // Inicializo valor para preventir SQLInyection
+            ps.setInt(1, id);
+
+            // Ejecuto la consulta SQL
+            ResultSet resultado = ps.executeQuery();
+
+            // Como solo espero uno, no itero por el resultado.
+            // Cojo el primer resultado. Es obligatorio hacer en next()
+            resultado.next();
+
+            // Mapeo la fila con el objeto Producto
+            producto = new Producto(
+                      resultado.getInt("id")
+                    , resultado.getString("nombre")
+                    , resultado.getBigDecimal("precio")
+                    , resultado.getString("descripcion"));
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+        return producto;
     }
     public List<Producto> findByNombre(String texto) {
 
-        return null;
+        List<Producto> productosEncontrados = new ArrayList<>();
+
+        //1. Conectarme a la BBDD
+        try(Connection con = ConexionBD.getConexionBD()) {
+            //2. Preparar el SQL que quiero ejecutar
+            String consulta = "SELECT id, nombre, precio, descripcion FROM producto WHERE nombre LIKE ?";
+            PreparedStatement ps = con.prepareStatement(consulta);
+            ps.setString(1, texto);
+
+            //3. Ejecuto y recogo el resultado
+            ResultSet resultado = ps.executeQuery();
+
+            //4. Devolvemos lo que haga falta
+            while(resultado.next()){
+                productosEncontrados.add(
+                        new Producto(
+                                resultado.getInt("id"),
+                                resultado.getString("nombre"),
+                                resultado.getBigDecimal("precio"),
+                                resultado.getString("descripcion")
+                        )
+                );
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+        return productosEncontrados;
     }
 
 }
